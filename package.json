@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "dev": "node index.js",
-    "start": "node index.js"
+    "start": "node index.js",
+    "deploy": "npm run build && gh-pages -d dist"
   },
   "author": "Dinael Araogn",
   "license": "ISC",
